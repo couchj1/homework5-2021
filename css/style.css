@@ -72,7 +72,7 @@ nav a:hover{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  position: fixed;
+  position: absolute;
   top: -50px;
 
   /*Your code here*/
@@ -161,7 +161,7 @@ header{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  align-items: center;
+  align-self: center;
 
 }
 
